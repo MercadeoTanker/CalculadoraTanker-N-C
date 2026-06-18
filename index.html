@@ -413,7 +413,7 @@
 
     <div style="background:#ddeeff;border-radius:10px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;margin-top:4px;">
       <span style="font-size:14px;font-weight:500;color:#0d1b2a;">Uso por persona / día</span>
-      <span style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:#0a4fa8;">200 – 250 L <span style="font-size:11px;font-weight:400;color:#64748b;">estándar Tanque Center</span></span>
+      <span style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:#0a4fa8;">200 – 250 L <span style="font-size:11px;font-weight:400;color:#64748b;">estándar Tanker Panamá</span></span>
     </div>
   </div>
 
@@ -528,7 +528,7 @@ function calcular() {
   document.getElementById('p-val').textContent = p;
   document.getElementById('d-val').textContent = d;
 
-  // Estimación Tanque Center: entre 200 y 250 litros por persona al día.
+  // Estimación Tanker Panamá: entre 200 y 250 litros por persona al día.
   // Para recomendar tanque se usa el escenario alto (250 L) y así evitar quedarse corto.
   const diarioMin = p * consumoMin;
   const diarioMax = p * consumoMax;
